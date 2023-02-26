@@ -44,7 +44,7 @@ create table products(
         check(status in ('valid', 'expired'))
 
 );
-
+SET FOREIGN_KEY_CHECKS=0;
 insert into countries values (1, 'Riyadh', 'Asia');
 insert into users values (1, 'AbdAlazez Alanezi', 'az@gmail.com', 'm', '2000/11/6', CURRENT_TIME(), 1);
 insert into orders values (1, 1, 'start', CURRENT_TIME());
