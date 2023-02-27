@@ -1,3 +1,5 @@
+# DB HW
+```SQL
 create database store;
 
 create table countries(
@@ -55,7 +57,7 @@ insert into order_products values (1, 1, 10);
 update  countries set  name='Dammam' where code='1';
 
 delete from  users where id='1';
-
+```
 ![ERdaigram](https://user-images.githubusercontent.com/123538854/221429919-b5c70df7-7231-4824-9977-45d4abc317a1.JPG)
 
 
